@@ -14,6 +14,7 @@ import { formatTransferUrl, parseTransferUrl } from './utils/transfer-url';
 export { ParsedTransferUrl } from './utils/transfer-url';
 import { BitString } from './boc/bit-string';
 import { Cell } from './boc/cell';
+export { Cell } from './boc/cell';
 import { Contract } from './contract/contract';
 export { ContractMethods, ContractOptions, Method, Query, StateInit, } from './contract/contract';
 import { Wallets } from './contract/wallet/wallets';
